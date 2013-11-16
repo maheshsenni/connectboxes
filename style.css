@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	padding: 0;	
+	background-color: whiteSmoke;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+.container {
+	text-align: center;	
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	top: 15px;
+	bottom: 70px;
+	min-height: 600px;
+	min-width: 950px;	
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 1em #ABABAB;
+}
+.header {
+	padding: 20px;
+	margin-top: 15px;
+	padding-left: 50px;
+	text-align: left;
+	border-radius: 5px 5px 0px 0px;	
+}
+.logo {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+}
+.twitter-share {
+	float: right;
+	margin-top: 5px;
+}
+.github-logo {
+	float: right;
+	margin-right: 20px;
+}
+.github-logo img {
+	width: 40px;
+}
+.wrapper {
+	margin-top: 70px;	
+}
+.wrapper .left-pane {
+	position: absolute;
+	left: 9%;
+	width: 40%;
+}
+.wrapper .right-pane2 {
+	position: absolute;	
+	left: 57%;
+	width: 35%;
+	min-width: 350px;
+	text-align: left;
+	border: 1px solid #ddd;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+	color: #555;
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+}
+#svg {
+	background: white;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.btn {
+	text-decoration: none;
+	color: #1abc9c;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid #1abc9c;
+	border-radius: 5px;	
+	letter-spacing: 0.5px;
+	display: inline-block;
+}
+.btn-primary {	
+	color: white;
+	background-color: #1abc9c;
+	float: right;
+}
+.btn-secondary {
+	float: left;
+}
+.btn-secondary:hover {
+	color: white;
+	background-color: #1abc9c;
+}
+.hide {
+	display: none;
+}
